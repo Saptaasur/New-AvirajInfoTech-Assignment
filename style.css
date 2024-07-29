@@ -1,0 +1,509 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.hero-header {
+  background: #333;
+  color: #fff;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+.form-control,
+.form-select {
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  background-color: #051445;
+  border: none;
+}
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  bottom: 20px;
+}
+.custom-nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.custom-prev {
+  left: 10px;
+}
+
+.custom-next {
+  right: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+
+.course-section {
+    background: #fff;
+    padding: 4rem 1rem;
+
+    .card {
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        margin: 0 auto;
+        max-width: 800px;
+        
+        .card-body {
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            .card-title {
+                font-size: 1.75rem;
+                margin-bottom: 1rem;
+                font-weight: bold;
+            }
+
+            .card-text {
+                font-size: 1rem;
+                margin-bottom: 2rem;
+                line-height: 1.6;
+            }
+
+            .button-container {
+                width: 100%;
+                display: flex;
+                justify-content: right; 
+                margin-top: 2rem; 
+
+                .btn {
+                    background-color: #007bff;
+                    color: #fff;
+                    padding: 0.75rem 1.5rem;
+                    border: none;
+                    border-radius: 4px;
+                    font-size: 1rem;
+                    font-weight: 500;
+                    cursor: pointer;
+                    transition: background-color 0.3s ease;
+                    text-decoration: none;
+
+                    &:hover {
+                        background-color: #0056b3;
+                    }
+                }
+            }
+        }
+    }
+}
+.drones-robotics {
+  background-color: #f8f9fa;
+  padding: 3rem 0;
+
+  .description {
+    font-size: 1.1rem;
+    color: #333;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    color: #343a40;
+  }
+
+  .benefits {
+    h2 {
+      font-size: 2rem;
+      color: #343a40;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      li {
+        font-size: 1.2rem;
+        color: #343a40;
+        display: flex;
+        align-items: center;
+        
+        i {
+          color: #28a745;
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+
+  .cta {
+    margin-top: 3rem;
+    a.btn {
+      font-size: 1.25rem;
+      padding: 0.75rem 1.5rem;
+    }
+  }
+}
+.container-xxl {
+  .our-values {
+    .card {
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      overflow: hidden;
+      color: #fff;
+      border-radius: 15px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+      &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      }
+
+      .card-body {
+        position: relative;
+        z-index: 1;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 2rem;
+
+        .card-title {
+          font-size: 1.5rem;
+          margin-bottom: 1rem;
+
+          a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+
+            &:hover {
+              color: #ffc107;
+            }
+          }
+        }
+
+        .card-text {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+.hero {
+  background: #f8f9fa;
+  padding: 3rem 0;
+  text-align: center;
+
+  .hero-title {
+    font-size: 2.5rem;
+    color: #343a40;
+    margin-bottom: 1rem;
+  }
+
+  .hero-description {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+
+  .cta-button {
+    font-size: 1.25rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+  }
+}
+
+.features {
+  .section-title {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 2rem;
+  }
+
+  .feature {
+    padding: 1.5rem;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    background-color: #fff;
+
+    .feature-title {
+      font-size: 1.8rem;
+      color: #343a40;
+      margin-bottom: 1rem;
+    }
+
+    .feature-description {
+      font-size: 1.1rem;
+      color: #495057;
+      margin-bottom: 0.5rem;
+    }
+
+    .feature-details {
+      font-size: 1rem;
+      color: #6c757d;
+    }
+  }
+
+  .cta-container {
+    margin-top: 3rem;
+    text-align: center;
+
+    .cta-heading {
+      font-size: 1.8rem;
+      color: #007bff;
+      margin-bottom: 1rem;
+    }
+
+    .cta-text {
+      font-size: 1.2rem;
+      color: #d0bcbc;
+      margin-bottom: 2rem;
+    }
+
+    .btn {
+      font-size: 1.25rem;
+      padding: 0.75rem 1.5rem;
+    }
+  }
+}
+.container-xxl {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  .section-title {
+    font-size: 2.5rem;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .intro-text {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+
+  .row {
+    .sub-title {
+      font-size: 1.5rem;
+      color: #343a40;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style-type: disc;
+      margin-left: 1.5rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #555;
+      line-height: 1.6;
+    }
+  }
+
+  .benefits, .case-studies {
+    margin-top: 2rem;
+
+    h3 {
+      font-size: 1.8rem;
+      color: #007bff;
+      margin-bottom: 1.5rem;
+    }
+
+    ul {
+      list-style-type: disc;
+      margin-left: 1.5rem;
+    }
+
+    .case-study {
+      padding: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background-color: #f9f9f9;
+    }
+  }
+
+  .cta {
+    h3 {
+      font-size: 2rem;
+      color: #007bff;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #333;
+      margin-bottom: 2rem;
+    }
+
+    a.btn {
+      font-size: 1.25rem;
+      padding: 0.75rem 1.5rem;
+    }
+  }
+}
+/* General styles for the hero section */
+.hero {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  margin-bottom: 40px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.hero .btn-primary {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the courses section */
+.courses {
+  padding: 50px 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.courses h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+}
+
+.course-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.course-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.course-item:hover {
+  transform: translateY(-10px);
+}
+
+.course-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.course-item p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.course-item .btn-secondary {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Benefits section styles */
+.benefits {
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.benefits-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.benefits-list li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.benefits-list i {
+  color: #28a745;
+  margin-right: 10px;
+}
